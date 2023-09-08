@@ -24,7 +24,7 @@ document.querySelector('#dayOfWeek').innerHTML = `day of the week: ${dayOfWeek}`
 
 
 
-let getTime = date.getMilliseconds();
+let getTime = date.getTime();
 
 document.querySelector('#time').innerHTML;
 document.querySelector('#time').innerHTML = `time: ${getTime}`;
