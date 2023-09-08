@@ -22,9 +22,11 @@ document.querySelector('#dayOfWeek').innerHTML;
 document.querySelector('#dayOfWeek').innerHTML = `day of the week: ${dayOfWeek}`;
 
 
-let getHours = date.getHours();
+/*let getHours = date.getHours();
 let getMinutes = date.getMinutes();
-let getTime = `${getHours}:${getMinutes}`;
+let getTime = `${getHours}:${getMinutes}`;*/
+
+let getTime = date.getTime();
 
 document.querySelector('#time').innerHTML;
 document.querySelector('#time').innerHTML = `time: ${getTime}`;
